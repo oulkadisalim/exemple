@@ -1,0 +1,16 @@
+exo4:
+qst1);
+
+  si on inverse p(plein) et p(m) dans consommateur --> on aura un INTERBLOCAGE.
+
+qst2):
+
+le producteur peut obtenir une addresse du tampon si'il verrouille en 1er avec p(m)
+et lorsque il deverouille avec v(m), le consommateur se verouille avec p(m)--> le consommateur se bloque sur p(plein) et le producteur sur p(m) ce qui donne un inetrblocage
+
+
+le consomateur ce bloque sur p(plein) si il se verrouille avec p(m)
+le producteur se bloque sur p(m) parceque il s'est deja verouiller par le consommateur.
+
+
+
